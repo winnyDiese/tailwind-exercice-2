@@ -5,155 +5,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme:{
+                extend:{
+                    maxWidth:{
+                        '8xl':'84erm'
+                    }
+                }
+            }
+        }
+
+    </script>
 
 </head>
 <body>
-    <div class="grid grid-cols-3">
+    <nav class="h-10 bg-black"></nav>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+    <div class="h-14 max-w-5xl max-auto flex justify-between items-center">
+        <h3 class="text-xl font-medium text-black">Accessiore</h3>
+        <a href="#" class="text-xs text-black">Tout parcourt</a>
+    </div>
+
+    <div class="bg-gray-100 border-t border-gray-300">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-4xl py-10">Coques et protections</h1>
+        </div>
+    </div>
+
+    <div class="h-14 border-t border-gray-300 border-b text-gray-400">
+        <div>Filtre</div>
+        <div>Trier par <span class="text-black">selection</span> </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto ">
+        <div class="grid grid-cols-3">
+
+            <div class="border border-r border-gray-300 text-center p-4">
+                <div class="aspect-square">
+                    <img 
+                        class="h-full w-full object-center object-cover"
+                        src="https://mediazone.ma/uploads/images/products/13380/13380-OM29MLuU.webp"
+                        alt=""
+                    >
+                </div>
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+            <div class="border border-r border-gray-300 text-center p-4">
+                <div class="aspect-square">
+                    <img 
+                        class="h-full w-full"
+                        src="https://www.usatoday.com/gcdn/presto/2022/09/08/USAT/0fa85fae-9875-4e69-a53b-fbd0a1acf5f7-Apple-iPhone-14-Pro-iPhone-14-Pro-Max-iOS-16-Lock-Screen-220907.jpg"
+                        alt=""
+                    >
+                </div>
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+            <div class="border border-r border-gray-300 text-center p-4">
+                <div class="aspect-square p-4 px-10">
+                    <img 
+                        class="h-full w-full"
+                        src="https://help.apple.com/assets/6525D505752940BC7C002221/6525D5095058A5A6C00A05B9/zh_TW/0763a14de3bc1d8dfd544d3943d8a379.png"
+                        alt=""
+                    >
+                </div>
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+            <div class="border border-r border-gray-300 text-center p-4">
+                <div class="aspect-square">
+                    <img 
+                        class="h-full w-full"
+                        src="https://imgcache.dealmoon.com/thumbimg.dealmoon.com/dealmoon/d4b/bc0/8a7/0b7b7d632b8c04a0991e175.png_1080_0_3_59a4.png"
+                        alt=""
+                    >
+                </div>
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+            <div class="border border-r border-gray-300 text-center">
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+            <div class="border border-r border-gray-300 text-center">
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+            <div class="border border-r border-gray-300 text-center">
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="border border-r border-gray-300 text-center">
-            <div class="pt-10 pb-4 px-10">
-                <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
-                <h3 class="text-md font-light text-gray-700">
-                    zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
-                </h3>
-                <p class="text-base text-gray-900 mt-3">-55.00$</p>
-                <div class="flex justify-center space-x-2 mt-4">
-                    <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
-                    <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+            <div class="border border-r border-gray-300 text-center">
+                <div class="pt-10 pb-4 px-10">
+                    <p class="text-xs font-light text-orange-500 mb-2">Nouveau</p>
+                    <h3 class="text-md font-light text-gray-700">
+                        zrtbrtb zrbtztrb ztrbzr bztrbtrbz tbztrb ztrb
+                    </h3>
+                    <p class="text-base text-gray-900 mt-3">-55.00$</p>
+                    <div class="flex justify-center space-x-2 mt-4">
+                        <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                        <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 
     <script src="../include.js"></script>
